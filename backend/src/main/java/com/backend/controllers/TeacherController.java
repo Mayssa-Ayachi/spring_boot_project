@@ -20,14 +20,24 @@ public class TeacherController
         this.service = service;
     }
 
-    @PostMapping
+    @PostMapping("/save")
     public Course save (@RequestBody Course course)
     {
         return service.save(course);
     }
 
-    @GetMapping
+    @GetMapping("/allcourses")
     public List<Course> findallcourses(){
         return service.findallcourses();
+    }
+
+    @GetMapping("/mycourses/{query}")
+    public List<Course> findByTeacherID(@PathVariable("query") String query){
+        return service.findByTeacherID(query);
+    }
+
+    @DeleteMapping("delete")
+    public void deleteallcourses(){
+        service.deleteallcourses();
     }
 }

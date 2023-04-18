@@ -24,4 +24,14 @@ public class TeacherDAO implements TeacherService
     public List<Course> findallcourses() {
         return (List<Course>) repository.findAll();
     }
+
+    @Override
+    public void deleteallcourses() {
+        repository.deleteAll();
+    }
+
+    @Override
+    public List<Course> findByTeacherID(String query) {
+        return (List<Course>) repository.findByTeacherID(query);
+    }
 }
