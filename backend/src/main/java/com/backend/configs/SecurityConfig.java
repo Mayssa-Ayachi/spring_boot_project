@@ -30,6 +30,7 @@ public class SecurityConfig {
                 .authenticationProvider(authenticationProvider)
                 .addFilterBefore(authenticationJwtTokenFilter, UsernamePasswordAuthenticationFilter.class)
                 .authorizeHttpRequests()
+                .requestMatchers("/api/auth/**").permitAll()
                 .requestMatchers("/api/all").permitAll()
                 .requestMatchers("/api/student").hasRole("STUDENT")
                 .requestMatchers("/api/teacher").permitAll()
