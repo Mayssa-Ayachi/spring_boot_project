@@ -1,0 +1,113 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* any form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div.error {
+  padding: 8px;
+  background: #ffefef;
+  border-radius: 5px;
+  position: relative;
+  margin: 0px 100px 10px 100px;
+
+}
+div.valide {
+  padding: 10px;
+  background: #e2fbe4;
+  border-radius: 5px;
+  position: relative;
+  margin: 0px 100px 10px 100px;
+}
+
+
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 20vh auto;
+  padding: 20px;
+  background: #FBFBFB;
+  border-radius: 4px;
+}
+
+/* Activity */
+.home{
+  margin-top: 10vh;
+}
+.coursactivites {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.activity-details {
+  width: 30vw;
+  height: 40vh;
+  background: #fff;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.activity-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.activity-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.activity-button{
+  position: relative;
+  margin: 1vh ;
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vh;
+  width: 70%;
+  height: 60%;
+}
+.upload{
+  position: relative;
+  margin-left: 188px;
+}
+.centre{
+  position: relative;
+  margin-left: 160px;
+}
+
+.rechercheajout {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5vh;
+  margin-top: 1vh;
+  margin-left: 3vh;
+}
+
+.mytable{
+  margin-top: 8vh;
+}
+
+.delete{
+  margin-left: 50vw;
+}
+
+
