@@ -34,8 +34,7 @@ public class SecurityConfig {
                 .requestMatchers("/api/all").permitAll()
                 .requestMatchers("/api/student").hasRole("STUDENT")
                 .requestMatchers("/api/teacher").permitAll()
-                .requestMatchers("/api/activity").permitAll()
-                .anyRequest().authenticated().and();
+                 .anyRequest().authenticated().and();
         return http.build();
     }
 }
