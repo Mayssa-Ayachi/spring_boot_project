@@ -28,7 +28,7 @@ To install the dependencies in the FrontEnd:
 
 
 To install the dependencies in the BackEnd: 
-* You can open the BackEnd with intellij IDE and click on maven the reload all projet.
+* You can open the BackEnd with intellIJ IDE and click on maven the reload all projet.
 * Run start the current file 'Backend Application'
 
 ![image](https://user-images.githubusercontent.com/87280772/235667703-58f78aa5-5ce4-4b9e-bb5a-028890d57ec9.png)
