@@ -13,7 +13,7 @@ To configure the database of the project:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/java
 spring.datasource.username=root
-spring.datasource.password=may1234
+spring.datasource.password=***** (write your own password)
 spring.jpa.hibernate.ddl-auto=update
 spring.sql.init.mode=always
 spring.jpa.defer-datasource-initialization=true
