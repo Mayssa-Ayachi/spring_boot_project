@@ -8,7 +8,7 @@ The courses could be with pdf format or videos.
 * FrontEnd: ReactJS 13.4.0
 * DataBase: Mysql database
 
-## To configure the database of the project: 
+### To configure the database of the project: 
 * Create the application.properties file and this code:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/java
