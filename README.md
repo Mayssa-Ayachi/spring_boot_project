@@ -31,13 +31,13 @@ cpc.app.jwtExpirationMs=3000000
 * run cd front
 * run npm install 
 
-![image](https://user-images.githubusercontent.com/96866076/235670940-87a3feb0-a434-4a74-bd88-3ec33eb9a83d.png)
+![image](https://user-images.githubusercontent.com/96866076/235671206-e47b7c66-40ca-4b33-b172-22cc48843fdb.png)
+
 ### To install the dependencies in the BackEnd: 
 * You can open the BackEnd with intellIJ IDE and click on maven the reload all projet.
 * Run start the current file 'Backend Application'
 
-![Uploading image.png…]()
-
+![image](https://user-images.githubusercontent.com/96866076/235671034-ece74ecb-24a9-45e4-af65-c75a6a65c24a.png)
 
 
 
