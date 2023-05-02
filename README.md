@@ -8,7 +8,7 @@ The courses could be with pdf format or videos.
 * FrontEnd: ReactJS 13.4.0
 * DataBase: Mysql database
 
-##To configure the database of the project: 
+## To configure the database of the project: 
 * Create the application.properties file and this code:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/java
@@ -27,14 +27,14 @@ cpc.app.jwtSecret=IUzI1NiJ9eyJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZ
 
 cpc.app.jwtExpirationMs=3000000
 
-###To install the dependencies in the FrontEnd: 
+### To install the dependencies in the FrontEnd: 
 * run cd front
 * run npm install 
 
 ![image](https://user-images.githubusercontent.com/87280772/235667958-ec1869d0-3e35-4a17-bed3-dcaca078afb6.png)
 
 
-###To install the dependencies in the BackEnd: 
+### To install the dependencies in the BackEnd: 
 * You can open the BackEnd with intellIJ IDE and click on maven the reload all projet.
 * Run start the current file 'Backend Application'
 
