@@ -3,6 +3,12 @@
 This is an e-learning application in which teachers can upload courses with activities and students can create accounts and check the courses uploaded by every teacher.
 The courses could be with pdf format or videos. 
 
+
+
+https://user-images.githubusercontent.com/96866076/235676230-c85c5958-39b3-46ba-b945-16d96ef95df0.mp4
+
+
+
 ## Technologies used:
 * BackEnd: SpringBoot version 3.0.5
 * FrontEnd: ReactJS 13.4.0
