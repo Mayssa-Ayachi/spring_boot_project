@@ -12,12 +12,19 @@ To configure the database of the project:
 * Create the application.properties file and this code:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/java
+
 spring.datasource.username=root
+
 spring.datasource.password=***** (write your own password)
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.sql.init.mode=always
+
 spring.jpa.defer-datasource-initialization=true
+
 cpc.app.jwtSecret=IUzI1NiJ9eyJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY4MDU5NDI1MiwiaWF0IjoxNjgwNTk0MjUyfQ
+
 cpc.app.jwtExpirationMs=3000000
 
 To install the dependencies in the FrontEnd: 
