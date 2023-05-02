@@ -24,6 +24,9 @@ To install the dependencies in the FrontEnd:
 * run cd front
 * run npm install 
 
+![image](https://user-images.githubusercontent.com/87280772/235667958-ec1869d0-3e35-4a17-bed3-dcaca078afb6.png)
+
+
 To install the dependencies in the BackEnd: 
 * You can open the BackEnd with intellij IDE and click on maven the reload all projet.
 * Run start the current file 'Backend Application'
