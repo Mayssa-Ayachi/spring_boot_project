@@ -31,7 +31,7 @@ cpc.app.jwtExpirationMs=3000000
 * run cd front
 * run npm install 
 
-![image](https://user-images.githubusercontent.com/87280772/235667958-ec1869d0-3e35-4a17-bed3-dcaca078afb6.png)
+![image](https://user-images.githubusercontent.com/96866076/235670606-1b9da0e9-d009-4339-886a-5a01510fef05.png)
 
 
 ### To install the dependencies in the BackEnd: 
